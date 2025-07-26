@@ -4,11 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock Paper Scissors</title>
 </head>
 
 <body>
+    <div class="header">Rock Paper Scissors</div>
+    <div class="playGround">
+        <div class="playerSection">
+            <p class="name">Player</p>
+            <img src="./asset/img/person_avatar.png" alt="info-picture" class="player-info-picture">
+            <div class="info">
+                <p class="player-choice">Choice: None</p>
+                <p class="player-score">Score: 0</p>
+            </div>
+        </div>
+        <div class="computerSection">
+            <p class="name">Computer</p>
+            <img src="./asset/img/bot-removebg-preview.png" alt="info-picture" class="computer-info-picture">
+            <div class="info">
+                <p class="computer-choice">Choice: None</p>
+                <p class="computer-score">Score: 0</p>
+            </div>
+        </div>
+    </div>
+    <div class="start-btn-section">
+        <button class="start-btn">START</button>
+    </div>
+    <div class="selectionGround">
+        <div class="rock item">Rock</div>
+        <div class="paper item">Paper</div>
+        <div class="scissors item">Scissors</div>
+    </div>
+
     <script src="./javascript.js"></script>
 </body>
+
 
 </html>
